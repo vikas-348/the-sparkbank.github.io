@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  height: 8vh;
+  background-color: #baa800;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: center;
+  box-shadow: grey 10px 10px 20px 1px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Nova Slim", cursive;
+}
+
+.nav_links {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.nav_link:hover {
+  color: white;
+  animation-name: animate;
+  animation-duration: 2s;
+}
+
+@keyframes animate {
+  0% {
+    color: rgb(63, 63, 63);
+  }
+
+  100% {
+    color: rgb(48, 48, 48);
+  }
+}
+.nav_link {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, 25%);
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  /* transform: translate(-30%, 0%); */
+}
+.right {
+  width: 40%;
+}
+.left > h1 {
+  font-size: 3rem;
+  padding: 30px;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left > p {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+}
+.right > img {
+  width: 100%;
+  height: 100%;
+  box-shadow: grey 10px 10px 20px 1px;
+}
+
+.pagesButton {
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pagesButton {
+  border-color: #baa800;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #8c5633 inset, 0 0 0 0 #8c5633;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.pagesButton:hover,
+.pagesButton:focus {
+  color: rgb(0, 0, 0);
+  outline: 0;
+  background-color: #a2ffeb;
+}
+
+.pagesButton:hover {
+  box-shadow: 0 0 10px 0 #ff0000 inset, 0 0 10px 4px #baa800;
+}
+
+.footer {
+  color: white;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer > p {
+  font-size: 1.2rem;
+  color: rgb(12, 12, 12);
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #aeffc2;
+}
+.Customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Customers h1 {
+  font-size: 2.5rem;
+  font-weight: bold; 
+  color: rgb(0, 0, 0);
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+table {
+  border-radius: 10px;
+  width: 70%;
+  border: 1px solid #9bff9b;
+  margin-bottom: 5rem;
+}
+thead {
+  background-color: #9bffb1;
+}
+thead > tr > th {
+  font-size: 1.5rem;
+  color: #eaeaea;
+}
+
+td,
+th {
+  padding: 1rem;
+  width: max-content;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+
+td {
+  font-size: 1.4rem;
+}
