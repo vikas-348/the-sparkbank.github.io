@@ -40,8 +40,8 @@ npm start
 ```
 
 <h3>And then the application should start.</h3>
-
-<hr>
+## Images 
+![ss1](http://url/to/img.png)
 
 
 
