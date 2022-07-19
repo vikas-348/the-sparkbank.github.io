@@ -41,7 +41,12 @@ npm start
 
 <h3>And then the application should start.</h3>
 ## Images 
-![ss1](http://url/to/img.png)
+![ss1](https://github.com/vikas-348/the-sparkbank.github.io/blob/main/Images/ss1.png)
+![ss1](https://github.com/vikas-348/the-sparkbank.github.io/blob/main/Images/ss2.png)
+![ss1](https://github.com/vikas-348/the-sparkbank.github.io/blob/main/Images/ss3.png)
+![ss1](https://github.com/vikas-348/the-sparkbank.github.io/blob/main/Images/ss4.png)
+![ss1](https://github.com/vikas-348/the-sparkbank.github.io/blob/main/Images/ss5.png)
+
 
 
 
