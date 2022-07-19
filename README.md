@@ -1,5 +1,5 @@
 # The Bank of Spark
-# Basic-Banking-System
+### Basic-Banking-System
 
 <h2> MERN Stack Web Application. </h2>
 
